@@ -1,0 +1,13 @@
+{
+  "name": "mlbtz",
+  "version": "1.0",
+  "manifest_version": 2,
+  "author": "Greg Palmer",
+  "description": "Update mlb.com game times to show current timezone",
+  "content_scripts": [
+    {
+      "matches": [ "http://*.mlb.com/*" ],
+      "js": [ "mlbtz.js" ]
+    }
+  ]
+}
